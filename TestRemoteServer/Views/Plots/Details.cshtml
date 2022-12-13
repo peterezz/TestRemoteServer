@@ -1,0 +1,130 @@
+﻿@model TestRemoteServer.Models.Plot
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Plot Details</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NameEn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NameEn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NameAr)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NameAr)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NoOfTree)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NoOfTree)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Size)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Size)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreatedBy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ModificationDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ModificationDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedBy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedBy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Deleted)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Deleted)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EstimateWeight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EstimateWeight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CurrentWeight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CurrentWeight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaxWeight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaxWeight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PlantingYear)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PlantingYear)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VineSpacing)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VineSpacing)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Quality)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Quality)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Remarks)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Remarks)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TempEstimateWeight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TempEstimateWeight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Farm)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Farm.NameEn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Variety)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Variety.NameAr)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

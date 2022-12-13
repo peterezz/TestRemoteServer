@@ -1,0 +1,105 @@
+﻿@model TestRemoteServer.Models.Farm
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Farm</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="NameEn" class="control-label"></label>
+                <input asp-for="NameEn" class="form-control" />
+                <span asp-validation-for="NameEn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NameAr" class="control-label"></label>
+                <input asp-for="NameAr" class="form-control" />
+                <span asp-validation-for="NameAr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gpsx" class="control-label"></label>
+                <input asp-for="Gpsx" class="form-control" />
+                <span asp-validation-for="Gpsx" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gpsy" class="control-label"></label>
+                <input asp-for="Gpsy" class="form-control" />
+                <span asp-validation-for="Gpsy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreationDate" class="control-label"></label>
+                <input asp-for="CreationDate" class="form-control" />
+                <span asp-validation-for="CreationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedBy" class="control-label"></label>
+                <input asp-for="CreatedBy" class="form-control" />
+                <span asp-validation-for="CreatedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModificationDate" class="control-label"></label>
+                <input asp-for="ModificationDate" class="form-control" />
+                <span asp-validation-for="ModificationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedBy" class="control-label"></label>
+                <input asp-for="ModifiedBy" class="form-control" />
+                <span asp-validation-for="ModifiedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Deleted" /> @Html.DisplayNameFor(model => model.Deleted)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="WithoutPackHouse" /> @Html.DisplayNameFor(model => model.WithoutPackHouse)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="ParentFarmId" class="control-label"></label>
+                <select asp-for="ParentFarmId" class="form-control" asp-items="ViewBag.ParentFarmId"></select>
+                <span asp-validation-for="ParentFarmId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CountryId" class="control-label"></label>
+                <select asp-for="CountryId" class="form-control" asp-items="ViewBag.CountryId"></select>
+                <span asp-validation-for="CountryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoOfReceivedStickers" class="control-label"></label>
+                <input asp-for="NoOfReceivedStickers" class="form-control" />
+                <span asp-validation-for="NoOfReceivedStickers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoOfUsedStickers" class="control-label"></label>
+                <input asp-for="NoOfUsedStickers" class="form-control" />
+                <span asp-validation-for="NoOfUsedStickers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remarks" class="control-label"></label>
+                <input asp-for="Remarks" class="form-control" />
+                <span asp-validation-for="Remarks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HarvestDate" class="control-label"></label>
+                <input asp-for="HarvestDate" class="form-control" />
+                <span asp-validation-for="HarvestDate" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-link">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

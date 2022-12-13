@@ -1,0 +1,138 @@
+﻿@model IEnumerable<TestRemoteServer.Models.Plot>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List All Plots</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NameAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfTree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Size)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModificationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deleted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstimateWeight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CurrentWeight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaxWeight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PlantingYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VineSpacing)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quality)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Remarks)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TempEstimateWeight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Farm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Variety)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfTree)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Size)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModificationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deleted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstimateWeight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CurrentWeight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxWeight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlantingYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VineSpacing)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quality)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Remarks)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TempEstimateWeight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Farm.NameEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Variety.NameAr)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,149 @@
+﻿@model IEnumerable<TestRemoteServer.Models.Farm>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List All Farms</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NameAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gpsx)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gpsy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModificationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deleted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WithoutPackHouse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfReceivedStickers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfUsedStickers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Remarks)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HarvestDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentFarm)
+            </th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+            <a asp-action="Create" class="btn btn-success" style="width: 350%">Create New Farm</a>
+        </td>
+    </tr>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gpsx)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gpsy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModificationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deleted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WithoutPackHouse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfReceivedStickers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfUsedStickers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Remarks)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HarvestDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country.NameEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentFarm.NameEn)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+            </td>
+                    <td>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

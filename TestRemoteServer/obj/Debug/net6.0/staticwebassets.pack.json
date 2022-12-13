@@ -1,0 +1,669 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20122\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TestRemoteServer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TestRemoteServer.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\buttons.bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\buttons.bootstrap.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\buttons.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\buttons.bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\custom.min.css",
+      "PackagePath": "staticwebassets\\css\\custom.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\fixedHeader.bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\fixedHeader.bootstrap.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\fixedHeader.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\fixedHeader.bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\font-awesome.css.map",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\green.css",
+      "PackagePath": "staticwebassets\\css\\green.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\nprogress.css",
+      "PackagePath": "staticwebassets\\css\\nprogress.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\responsive.bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\responsive.bootstrap.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\responsive.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\responsive.bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\scroller.bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\scroller.bootstrap.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\scroller.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\scroller.bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\buttons.bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\buttons.bootstrap.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\buttons.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\buttons.flash.js",
+      "PackagePath": "staticwebassets\\js\\buttons.flash.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.flash.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\buttons.html5.js",
+      "PackagePath": "staticwebassets\\js\\buttons.html5.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\buttons.print.js",
+      "PackagePath": "staticwebassets\\js\\buttons.print.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\custom.min.js",
+      "PackagePath": "staticwebassets\\js\\custom.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.buttons.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.buttons.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.fixedHeader.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.fixedHeader.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.fixedHeader.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.fixedHeader.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.keyTable.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.keyTable.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.keyTable.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.keyTable.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.responsive.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.responsive.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.scroller.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.scroller.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\dataTables.scroller.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.scroller.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\datepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\js\\datepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\fastclick.js",
+      "PackagePath": "staticwebassets\\js\\fastclick.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\icheck.min.js",
+      "PackagePath": "staticwebassets\\js\\icheck.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\jszip.js",
+      "PackagePath": "staticwebassets\\js\\jszip.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\jszip.min.js",
+      "PackagePath": "staticwebassets\\js\\jszip.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\moment\\moment.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\nprogress.js",
+      "PackagePath": "staticwebassets\\js\\nprogress.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\pdfmake.js",
+      "PackagePath": "staticwebassets\\js\\pdfmake.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\js\\pdfmake.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\pdfmake.min.js.map",
+      "PackagePath": "staticwebassets\\js\\pdfmake.min.js.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\responsive.bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\responsive.bootstrap.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\js\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\js\\vfs_fonts.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TestRemoteServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TestRemoteServer.props",
+      "PackagePath": "build\\TestRemoteServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TestRemoteServer.props",
+      "PackagePath": "buildMultiTargeting\\TestRemoteServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TestRemoteServer.props",
+      "PackagePath": "buildTransitive\\TestRemoteServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
