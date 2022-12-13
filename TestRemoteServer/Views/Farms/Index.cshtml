@@ -4,58 +4,111 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>List All Farms</h1>
+@*<h1>List All Farms</h1>*@
 
-<table class="table">
+<!-- page content -->
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Users <small>Some examples to get you started</small></h3>
+            </div>
+
+            <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Default Example <small>Users</small></h2>
+                        <ul class="nav navbar-right panel_toolbox">
+                            <li>
+                                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="#">Settings 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Settings 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="close-link"><i class="fa fa-close"></i></a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <p class="text-muted font-13 m-b-30">
+                            DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function: <code>$().DataTable();</code>
+                        </p>
+  
+                        <table class="table table-striped table-bordered dataTable no-footer">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NameEn)
+                                        @Html.DisplayNameFor(model => model.NameEn)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NameAr)
+                                        @Html.DisplayNameFor(model => model.NameAr)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Gpsx)
+                                        @Html.DisplayNameFor(model => model.Gpsx)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Gpsy)
+                                        @Html.DisplayNameFor(model => model.Gpsy)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CreationDate)
+                                        @Html.DisplayNameFor(model => model.CreationDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CreatedBy)
+                                        @Html.DisplayNameFor(model => model.CreatedBy)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ModificationDate)
+                                        @Html.DisplayNameFor(model => model.ModificationDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ModifiedBy)
+                                        @Html.DisplayNameFor(model => model.ModifiedBy)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Deleted)
+                                        @Html.DisplayNameFor(model => model.Deleted)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.WithoutPackHouse)
+                                        @Html.DisplayNameFor(model => model.WithoutPackHouse)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NoOfReceivedStickers)
+                                        @Html.DisplayNameFor(model => model.NoOfReceivedStickers)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NoOfUsedStickers)
+                                        @Html.DisplayNameFor(model => model.NoOfUsedStickers)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Remarks)
+                                        @Html.DisplayNameFor(model => model.Remarks)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.HarvestDate)
+                                        @Html.DisplayNameFor(model => model.HarvestDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Country)
+                                        @Html.DisplayNameFor(model => model.Country)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ParentFarm)
+                                        @Html.DisplayNameFor(model => model.ParentFarm)
             </th>
             <th></th>
             <th></th>
@@ -84,66 +137,76 @@
             <a asp-action="Create" class="btn btn-success" style="width: 350%">Create New Farm</a>
         </td>
     </tr>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NameEn)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NameAr)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Gpsx)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Gpsy)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreationDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedBy)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ModificationDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ModifiedBy)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Deleted)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.WithoutPackHouse)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NoOfReceivedStickers)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NoOfUsedStickers)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Remarks)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.HarvestDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Country.NameEn)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ParentFarm.NameEn)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
-            </td>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
-            </td>
-                    <td>
-                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
-            </td>
-        </tr>
-}
+                                @foreach (var item in Model)
+                                {
+            <tr>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.NameEn)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.NameAr)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.Gpsx)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.Gpsy)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.CreationDate)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.CreatedBy)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.ModificationDate)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.ModifiedBy)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.Deleted)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.WithoutPackHouse)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.NoOfReceivedStickers)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.NoOfUsedStickers)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.Remarks)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.HarvestDate)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.Country.NameEn)
+                </td>
+                <td>
+                                            @Html.DisplayFor(modelItem => item.ParentFarm.NameEn)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                </td>
+                        <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+                                }
     </tbody>
 </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

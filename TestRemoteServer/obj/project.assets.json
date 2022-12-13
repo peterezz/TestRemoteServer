@@ -10762,19 +10762,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\20122\\.nuget\\packages\\": {}
+    "C:\\Users\\hp 2022\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\TestRemoteServer.csproj",
+      "projectUniqueName": "E:\\Demo Projects\\RemoteServer\\TestRemoteServer\\TestRemoteServer\\TestRemoteServer.csproj",
       "projectName": "TestRemoteServer",
-      "projectPath": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\TestRemoteServer.csproj",
-      "packagesPath": "C:\\Users\\20122\\.nuget\\packages\\",
-      "outputPath": "E:\\SingleClic\\Training\\Task3\\TestRemoteServer\\TestRemoteServer\\obj\\",
+      "projectPath": "E:\\Demo Projects\\RemoteServer\\TestRemoteServer\\TestRemoteServer\\TestRemoteServer.csproj",
+      "packagesPath": "C:\\Users\\hp 2022\\.nuget\\packages\\",
+      "outputPath": "E:\\Demo Projects\\RemoteServer\\TestRemoteServer\\TestRemoteServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\20122\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp 2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10844,7 +10844,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
